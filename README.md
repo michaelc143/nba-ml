@@ -6,6 +6,8 @@
 python3 -v
 ```
 
+- Then install the project dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
