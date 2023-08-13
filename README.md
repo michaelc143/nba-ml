@@ -16,4 +16,11 @@ pip install -r requirements.txt
 git clone https://github.com/michaelc143/nba-ml.git
 ```
 
+- This project is also containerized, to build and run the container locally run the following command:
+
+```bash
+nba-ml % docker build -t nba-ml .
+docker run -it nba-ml
+```
+
 Written by: Michael Corbishley

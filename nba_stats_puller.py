@@ -2,7 +2,7 @@ import pandas as pd
 
 user_input = input("Enter the name that you want points per game for: ")
 
-data = pd.read_csv('../nba-ml/nba23boxscores/basic.csv')
+data = pd.read_csv('nba23boxscores/basic.csv')
 # 1628369
 # Replace 'desired_player_id' with the specific player ID you want
 desired_player_name = user_input  # Replace with the actual player ID, currently jayson tatum
