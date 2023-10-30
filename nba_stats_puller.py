@@ -21,7 +21,5 @@ if total_games > 82:
     playoff_games = total_games - 82
 
 print(f'Player name: {desired_player_name}')
-print(f'Total Points: {total_points}')
-print(f'Total Games: {total_games}')
-print(f'Playoff games: {playoff_games}')
-print(f'Points Per Game (PPG): {ppg:.2f}')
+print(f'Points Per Game (PPG): {ppg:.2f}, Total Points: {total_points}')
+print(f'Total Games: {total_games}, Playoff Games: {playoff_games}')
